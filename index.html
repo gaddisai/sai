@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .background{
+        background-image: url("assets/images/19187761.jpg");
+        height: 120vh;
+        width: 100vw;
+        background-size: cover;
+        color: white;
+        padding: 30px;
+        align-items: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="background">
+        <h1>Forms</h1><br>
+        <hr><br>
+        <h2>Login Form</h2><br>
+        <form>  
+            <p>
+                <input type="text" placeholder="Enter Name" required autofocus>
+            </p><br>
+            <p>
+                <input type="text" placeholder="Enter Email" required autofocus>
+            </p><br>
+            <p>
+                <input type="checkbox"><label>Remember me</label>
+            </p><br>
+            <button>Submit</button>
+        </form><br>
+        <h2>Signup Form</h2><br>
+        <form>
+            <fieldset><legend>Personal Info:</legend>
+                <p>
+                    <input type="text" placeholder="Enter Email" required autofocus>
+                </p><br>
+                <p>
+                    <input type="text" placeholder="Enter Email" required autofocus>
+                </p><br>
+                <p>
+                    <input type="number" placeholder="Enter Email" required autofocus>
+                </p><br>
+                <p>
+                    Languages:<br>
+                    <select>
+                        <option>English</option><br>
+                        <option>Hindi</option><br>
+                        <option>Telugu</option>
+                    </select>
+                </p><br>
+            </fieldset>
+            <fieldset><legend>Personal skills:</legend>
+                <p>
+                    Skills:<br><br>
+                    <input type="checkbox"><label>HTML</label><br>
+                    <input type="checkbox"><label>CSS</label><br>
+                    <input type="checkbox"><label>Java script</label>
+                </p><br>
+                <p>
+                    Qualification:<br><br>
+                    <input type="radio" name="Qualification"><label>BTECH</label><br>    
+                    <input type="radio" name="Qualification"><label>MBA</label>
+                </p>
+            </fieldset><br>
+                <button>Submit</button>
+                <input type="reset">
+            </form>
+        
+    </div>
+</body>
+</html>
